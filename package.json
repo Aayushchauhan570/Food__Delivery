@@ -1,0 +1,46 @@
+{
+  "name": "food_delivery_app",
+  "version": "1.0.0",
+  "description": "This is the learning react project of food delivery appp",
+  "homepage": "https://github.com/Aayushchauhan570/Food__Delivery#readme",
+  "bugs": {
+    "url": "https://github.com/Aayushchauhan570/Food__Delivery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aayushchauhan570/Food__Delivery.git"
+  },
+  "license": "ISC",
+  "author": "Aayush Chauhan",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "watch-test": "jest --watch"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.13.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "parcel": "^2.16.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-redux": "^9.3.0",
+    "react-router": "^8.4.0",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.9",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2"
+  }
+}
